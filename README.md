@@ -6,9 +6,10 @@
 This repository documents my journey of learning Data Science from the basics.
 
 ## Business Math & Statistics using Excel
+Excel-Practice/excel.md
 
 * Total, Average & Revenue
 * Profit & Loss basics
 * Mean, Median, Mode
 * Variance & Standard Deviation
-* Correlation
+* Correlationq
