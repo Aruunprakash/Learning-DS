@@ -11,4 +11,4 @@ This repository documents my journey of learning Data Science from the basics.
 * Profit & Loss basics
 * Mean, Median, Mode
 * Variance & Standard Deviation
-* Correlationq
+* Correlations
