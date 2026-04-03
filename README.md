@@ -12,3 +12,36 @@ This repository documents my journey of learning Data Science from the basics.
 * Mean, Median, Mode
 * Variance & Standard Deviation
 * Correlations
+
+## 📊 MySQL
+
+### 🧠 Basics
+- Database  
+- Tables  
+- Case Insensitivity  
+- Use Database  
+
+### 🔍 Queries
+- SELECT  
+- WHERE  
+- DISTINCT  
+- COUNT  
+- LIKE  
+
+### ⚙️ Conditions
+- AND / OR  
+- BETWEEN  
+- IN  
+- NULL  
+
+### 📊 Sorting & Limiting
+- ORDER BY  
+- LIMIT  
+- OFFSET  
+
+### 📈 Analytics
+- MIN / MAX  
+- AVG  
+- ROUND  
+- GROUP BY  
+- AS (Alias)
