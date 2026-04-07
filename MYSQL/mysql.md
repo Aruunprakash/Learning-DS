@@ -125,5 +125,33 @@ A **database** is a collection of tables, and each table consists of rows and co
 - Used for multiple conditions  
 - More flexible than IF  
 
+## 📊 MySQL – Joins
+
+### 🔗 INNER JOIN
+- Returns only matching records from both tables  
+- Rows included only when join condition is satisfied  
+
+---
+
+### ⬅️ LEFT JOIN
+- Returns all records from left table  
+- Matching records from right table  
+- Non-matching values → NULL  
+
+---
+
+### ➡️ RIGHT JOIN
+- Returns all records from right table  
+- Matching records from left table  
+- Non-matching values → NULL  
+
+---
+
+### 🔄 FULL JOIN
+- Returns all records from both tables  
+- Fills NULL where no match exists  
+- Not directly supported in MySQL  
+- Achieved using UNION of LEFT and RIGHT JOIN  
+
 ---
 
