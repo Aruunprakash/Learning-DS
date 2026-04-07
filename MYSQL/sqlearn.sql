@@ -138,5 +138,3 @@ from movies m left join financials f on m.movie_id=f.movie_id
 union
 select  f.movie_id,budget,revenue, currency, unit  
 from movies m  right join financials f on m.movie_id=f.movie_id;
-
-
