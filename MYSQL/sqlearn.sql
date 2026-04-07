@@ -90,3 +90,28 @@ FROM movies
 GROUP BY industry
 HAVING total_movies > 2;
 
+select release_year,count(*) as mov_count
+from movies
+where imdb_rating >= 2
+group by release_year
+having mov_count > 2
+order by mov_count desc;
+
+--YEAR and CURRENT_DATE
+select year(current_date());
+select curdate()
+
+
+--IF
+select *, if(currency='usd', revenue*77,revenue) as revenue_inr  from financials;
+
+--CASE
+select *,
+case 
+	when unit="thousands" then revenue/1000
+    when unit="billions" then revenue*1000
+    else revenue
+end as revenue_mln
+from financials;
+
+--SQL JOINS
