@@ -115,3 +115,11 @@ end as revenue_mln
 from financials;
 
 --SQL JOINS
+--inner JOIN
+select 
+m.movie_id,budget,revenue, currency, unit 
+from movies m
+join financials f
+on m.movie_id=f.movie_id;
+
+
