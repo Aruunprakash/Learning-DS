@@ -1,4 +1,4 @@
-### DATA SCIENCE JOURNEY
+# DATA SCIENCE JOURNEY
 
 # 📊 Data Science Foundations: Business Math & Statistics (Excel)
 ## 📌 Overview
