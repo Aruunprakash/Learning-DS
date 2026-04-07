@@ -45,3 +45,12 @@ This repository documents my journey of learning Data Science from the basics.
 - ROUND  
 - GROUP BY  
 - AS (Alias)
+
+## 📊 MySQL – Advanced
+
+- HAVING Clause  
+- Calculated Columns  
+- Date Functions (CURDATE, YEAR)  
+- Formulas  
+- IF Conditions  
+- CASE Statements  

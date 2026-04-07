@@ -93,3 +93,37 @@ A **database** is a collection of tables, and each table consists of rows and co
 - Aggregations help in data analysis  
 - Filtering reduces unnecessary data retrieval  
 
+## 📊 MySQL – Advanced Concepts
+
+### HAVING
+- Used with GROUP BY  
+- Filters aggregated data  
+- Applied after grouping  
+
+---
+
+### Calculated Columns
+- Create new values using expressions  
+- Derived from existing columns  
+
+---
+
+### Date Functions & Formulas
+- CURDATE() → current date  
+- YEAR() → extract year  
+- Used for calculations (like age, profit)  
+
+---
+
+### IF Condition
+- Used for simple conditions  
+- Returns value based on true/false  
+
+---
+
+### CASE Statement
+- Used for multiple conditions  
+- More flexible than IF  
+
+---
+
