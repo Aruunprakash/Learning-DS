@@ -54,3 +54,10 @@ This repository documents my journey of learning Data Science from the basics.
 - Formulas  
 - IF Conditions  
 - CASE Statements  
+
+## 🐍 Python – Basics
+
+- Variables  
+- Numbers  
+- Strings  
+- Lists  
