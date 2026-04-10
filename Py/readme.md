@@ -29,3 +29,6 @@
 - Mutable (can be changed)  
 
 ---
+
+### DEBUGGING
+process of identifying and fixing bugs
