@@ -33,4 +33,22 @@
 ### DEBUGGING
 process of identifying and fixing bugs
 
-### IF Statement
+## IF Statement
+### 🔹 IF
+- Used to check a condition  
+- Executes block if condition is true  
+
+---
+
+### 🔸 IF-ELSE
+- Provides alternative execution  
+- Runs one block if true, another if false  
+
+---
+
+### 🔁 IF-ELIF-ELSE
+- Used for multiple conditions  
+- Checks conditions sequentially  
+- Executes the first true condition  
+
+---
