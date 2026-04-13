@@ -60,4 +60,6 @@ This repository documents my journey of learning Data Science from the basics.
 - Variables  
 - Numbers  
 - Strings  
-- Lists  
+- Lists
+- IF statement
+- 
