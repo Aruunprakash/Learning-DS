@@ -71,3 +71,12 @@ This repository documents my journey of learning Data Science from the basics.
 - continue  
 - break  
 - while loop  
+
+## 🐍 Python – Functions
+
+- Function  
+- Return Value  
+- Arguments  
+- Function Body  
+- Global vs Local Variables  
+- Documentation  
