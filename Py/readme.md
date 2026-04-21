@@ -129,6 +129,7 @@ process of identifying and fixing bugs
 
 ---
 
+<<<<<<< HEAD
 ## 🐍 Python – Dictionary
 
 ### 📦 Dictionary
@@ -165,5 +166,7 @@ process of identifying and fixing bugs
 - Resets dictionary to empty  
 
 ---
+
+=======
 
 
