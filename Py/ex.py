@@ -111,3 +111,17 @@ def sum(a,b=98):
 n=sum(5)
 print(n)
 
+#dictionary
+dict1={"a":8089656768,"b":8891768809,"c":9995775643}
+#ADD
+dict1["sam"]=7776987657
+#delete
+del dict1["sam"]
+print(dict1)
+
+for k,v in dict1.items():
+    print(k,v)
+
+"a" in dict1
+#empty the dictionary
+dict1.clear()

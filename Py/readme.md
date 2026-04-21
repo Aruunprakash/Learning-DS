@@ -90,3 +90,80 @@ process of identifying and fixing bugs
 - Used when number of iterations is unknown  
 
 ---
+
+## 🐍 Python – Functions
+
+### 🔧 Function
+- Reusable block of code  
+- Performs a specific task  
+
+---
+
+### 🔁 Return Value
+- Sends result back to caller  
+- Ends function execution  
+
+---
+
+### 📥 Arguments
+- Inputs passed to a function  
+- Used to customize behavior  
+
+---
+
+### 🧱 Function Body
+- Contains the logic of the function  
+- Executes when function is called  
+
+---
+
+### 🌐 Global vs Local Variables
+- Global → accessible throughout the program  
+- Local → defined inside a function, limited scope  
+
+---
+
+### 📄 Documentation
+- Describes function purpose and usage  
+- Improves readability and understanding  
+
+---
+
+## 🐍 Python – Dictionary
+
+### 📦 Dictionary
+- Stores data in key-value pairs  
+- Unordered and mutable  
+
+---
+
+### ➕ Adding Entry
+- New key-value pairs can be added dynamically  
+
+---
+
+### ❌ Deleting Entry
+- Entries can be removed using key  
+- Useful for managing data  
+
+---
+
+### 🔁 Iteration (for loop)
+- Used to traverse keys, values, or both  
+- Helps in processing dictionary data  
+
+---
+
+### 🔍 Membership Check
+- `in` keyword checks if key exists  
+- Returns true/false  
+
+---
+
+### 🧹 Clearing Dictionary
+- Removes all key-value pairs  
+- Resets dictionary to empty  
+
+---
+
+
