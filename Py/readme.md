@@ -52,3 +52,41 @@ process of identifying and fixing bugs
 - Executes the first true condition  
 
 ---
+
+## 🐍 Python – Loops
+
+### 🔁 for loop
+- Used to iterate over sequences  
+- Executes block for each item  
+
+---
+
+### 🔢 range()
+- Generates a sequence of numbers  
+- Commonly used with loops  
+
+---
+
+### 📏 len() with range
+- Used to iterate using index  
+- Helps access elements by position  
+
+---
+
+### ⏭️ continue
+- Skips current iteration  
+- Moves to next loop cycle  
+
+---
+
+### 🛑 break
+- Stops the loop immediately  
+- Exits loop when condition is met  
+
+---
+
+### 🔄 while loop
+- Runs as long as condition is true  
+- Used when number of iterations is unknown  
+
+---

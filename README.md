@@ -62,4 +62,12 @@ This repository documents my journey of learning Data Science from the basics.
 - Strings  
 - Lists
 - IF statement
-- 
+
+## 🐍 Python – Loops
+
+- for loop  
+- range()  
+- len() with range  
+- continue  
+- break  
+- while loop  
