@@ -26,3 +26,8 @@ elif dish in chinese:
 else:
     print("your favorite dish is not on the list")
 
+l1=[2022,2089,2918,2315]
+total=0
+for i in l1:
+    total=total+i
+print(total)
