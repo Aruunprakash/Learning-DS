@@ -64,3 +64,50 @@ while i<=10:
     print(i)
     i+=1
 
+#function
+def exp_caluclator(exp):
+    sum=0
+    for i in exp:
+        sum=sum+i
+    return sum
+
+a_exp=[243,567,642]
+exp_caluclator(a_exp)
+
+#keyword argument
+def sum(a,b):
+    return a+b
+
+n=sum(b=5,a=6)
+print(n)
+
+#global and local variable
+total=0
+def sum(a,b):
+    global total
+    total=a+b
+    return total
+
+n=sum(54,46)
+print(total)
+
+#default argument
+def sum(a,b=98):
+    return a+b
+
+n=sum(5)
+print(n)
+
+#documentation
+def sum(a,b=98):
+    """
+
+    :param a:
+    :param b:
+    :return:
+    """
+    return a+b
+
+n=sum(5)
+print(n)
+
