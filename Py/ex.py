@@ -4,7 +4,7 @@ height=5
 area=0.5*(base*height)
 print(area)
 
-#if statement
+# if statement
 # 1
 n=int(input("enter the number:"))
 if n%2==0:
@@ -26,8 +26,41 @@ elif dish in chinese:
 else:
     print("your favorite dish is not on the list")
 
+#for loop
 l1=[2022,2089,2918,2315]
 total=0
 for i in l1:
     total=total+i
 print(total)
+
+#using range
+l1=[2022,2089,2918,2315]
+total=0
+for i in range(len(l1)):
+    total=total+l1[i]
+    print("month",(i+1),"expense is:",(l1[i]))
+print("total expense is",total)
+
+#break
+key="chair"
+furniture=["desk","bench","wardrobe","chair","sofa"]
+for i in furniture:
+    if key==i:
+        print("key is part of the furniture")
+        break
+    else:
+        print("it is not part of the furniture")
+
+#continue
+for i in range(1,11):
+    if i%2==0:
+        continue
+    else:
+        print("squares of odd numbers are:",i*i)
+
+#while
+i=1
+while i<=10:
+    print(i)
+    i+=1
+
