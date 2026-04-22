@@ -125,3 +125,7 @@ for k,v in dict1.items():
 "a" in dict1
 #empty the dictionary
 dict1.clear()
+
+#tuple
+m=(5,9)
+print(m)
