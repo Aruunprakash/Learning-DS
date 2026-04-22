@@ -169,4 +169,25 @@ process of identifying and fixing bugs
 
 =======
 
+## 🐍 Python – Tuples
+
+### 📦 Tuple
+- Ordered collection of elements  
+- Immutable (cannot be changed)  
+
+---
+
+### 🔍 Accessing Elements
+- Elements accessed using index  
+- Supports positive and negative indexing  
+
+---
+
+### 🔁 Iteration (for loop)
+- Used to traverse elements  
+- Common in coordinate-like data (e.g., (x, y))  
+
+---
+
+
 
