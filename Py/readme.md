@@ -190,4 +190,36 @@ process of identifying and fixing bugs
 ---
 
 
+## 🐍 Python – Modules & JSON
+
+### 📦 Modules
+- Reusable code organized in files  
+- Imported to use predefined functionality  
+
+---
+
+### 🔗 JSON
+- Lightweight data format (key-value structure)  
+- Used for data exchange and storage  
+
+---
+
+### 📁 File Handling
+- Used to create, read, and write files  
+- Enables storing data externally  
+
+---
+
+### 🔄 dumps / loads
+- `dumps` → converts Python object to JSON format  
+- `loads` → converts JSON data to Python object  
+
+---
+
+### 📖 Read / Write
+- Reading → fetch data from file  
+- Writing → store data into file  
+
+---
+
 

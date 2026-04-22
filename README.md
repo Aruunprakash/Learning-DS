@@ -96,3 +96,12 @@ This repository documents my journey of learning Data Science from the basics.
 - Tuple  
 - Accessing Elements  
 - Iteration (for loop)  
+
+
+## 🐍 Python – Modules & JSON
+
+- Modules  
+- JSON  
+- File Handling  
+- dumps / loads  
+- Read / Write  
