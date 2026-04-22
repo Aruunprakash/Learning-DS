@@ -249,4 +249,36 @@ process of identifying and fixing bugs
 
 ---
 
+## 🐍 Python – Exception Handling
+
+### ⚠️ Exception Handling
+- Used to handle runtime errors  
+- Prevents program from crashing  
+
+---
+
+### 🔹 try / except
+- `try` → code that may cause error  
+- `except` → handles the error  
+
+---
+
+### ❌ ZeroDivisionError
+- Occurs when dividing by zero  
+- Specific type of exception  
+
+---
+
+### 🧠 Exception as e
+- Captures error object  
+- Allows access to error message  
+
+---
+
+### 🔍 Type of Exception
+- `type(e).__name__` → gives exception name  
+- Helps identify error type  
+
+---
+
 
