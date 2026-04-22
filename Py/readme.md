@@ -281,4 +281,50 @@ process of identifying and fixing bugs
 
 ---
 
+## 🐍 Python – OOP Basics
+
+### 🧱 Class & Objects
+- Class → blueprint for creating objects  
+- Object → instance of a class  
+
+---
+
+### ⚙️ __init__
+- Special method (constructor)  
+- Initializes object properties  
+- Runs automatically when object is created  
+
+---
+
+### 👤 self
+- Refers to current object  
+- Used to access instance variables and methods  
+
+---
+
+### 🔗 Inheritance
+- Deriving a class from another (parent → child)  
+- Child class inherits properties and behavior  
+
+---
+
+### 🆕 Object Creation
+- Objects are created from classes  
+- Each object holds its own data  
+
+---
+
+### 📦 Instances & Subclass
+- Instance → object of a class  
+- Subclass → child class derived from parent  
+
+---
+
+### 🚀 Benefits of Inheritance
+- Code Reuse  
+- Extensibility  
+- Improved Readability  
+
+---
+
 

@@ -119,3 +119,15 @@ This repository documents my journey of learning Data Science from the basics.
 - ZeroDivisionError  
 - Exception as e  
 - Exception Type  
+
+## 🐍 Python – OOP Basics
+
+- Class & Objects  
+- __init__  
+- self  
+- Inheritance  
+- Object Creation  
+- Instances & Subclass  
+- Benefits of Inheritance  
+
+
