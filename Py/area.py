@@ -5,3 +5,4 @@ def cal_area(base,height):
 if __name__=="__main__":
     a=cal_area(10,5)
     print("area:",a)
+
