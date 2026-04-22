@@ -105,3 +105,9 @@ This repository documents my journey of learning Data Science from the basics.
 - File Handling  
 - dumps / loads  
 - Read / Write  
+
+## 🐍 Python – __name__ == "__main__"
+
+- __name__ variable  
+- Main execution check  
+- Using multiple files  

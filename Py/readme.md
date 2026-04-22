@@ -222,4 +222,31 @@ process of identifying and fixing bugs
 
 ---
 
+## 🐍 Python – __name__ == "__main__"
+
+### 🧠 __name__ Variable
+- Special built-in variable in Python  
+- Indicates how a file is being executed  
+
+---
+
+### ▶️ Main Execution
+- When a file is run directly → __name__ = "__main__"  
+- When imported → __name__ = module name  
+
+---
+
+### 📂 Using with Multiple Files
+- Helps control code execution when modules are imported  
+- Prevents certain code from running during import  
+- Allows reuse of functions across files  
+
+---
+
+### 💡 Concept
+- Code inside `if __name__ == "__main__"` runs only when the file is executed directly  
+- Not executed when the file is imported  
+
+---
+
 
