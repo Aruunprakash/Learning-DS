@@ -111,3 +111,11 @@ This repository documents my journey of learning Data Science from the basics.
 - __name__ variable  
 - Main execution check  
 - Using multiple files  
+
+## 🐍 Python – Exception Handling
+
+- try / except  
+- Exceptions  
+- ZeroDivisionError  
+- Exception as e  
+- Exception Type  
