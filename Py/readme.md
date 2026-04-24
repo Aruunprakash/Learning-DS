@@ -169,4 +169,162 @@ process of identifying and fixing bugs
 
 =======
 
+## 🐍 Python – Tuples
+
+### 📦 Tuple
+- Ordered collection of elements  
+- Immutable (cannot be changed)  
+
+---
+
+### 🔍 Accessing Elements
+- Elements accessed using index  
+- Supports positive and negative indexing  
+
+---
+
+### 🔁 Iteration (for loop)
+- Used to traverse elements  
+- Common in coordinate-like data (e.g., (x, y))  
+
+---
+
+
+## 🐍 Python – Modules & JSON
+
+### 📦 Modules
+- Reusable code organized in files  
+- Imported to use predefined functionality  
+
+---
+
+### 🔗 JSON
+- Lightweight data format (key-value structure)  
+- Used for data exchange and storage  
+
+---
+
+### 📁 File Handling
+- Used to create, read, and write files  
+- Enables storing data externally  
+
+---
+
+### 🔄 dumps / loads
+- `dumps` → converts Python object to JSON format  
+- `loads` → converts JSON data to Python object  
+
+---
+
+### 📖 Read / Write
+- Reading → fetch data from file  
+- Writing → store data into file  
+
+---
+
+## 🐍 Python – __name__ == "__main__"
+
+### 🧠 __name__ Variable
+- Special built-in variable in Python  
+- Indicates how a file is being executed  
+
+---
+
+### ▶️ Main Execution
+- When a file is run directly → __name__ = "__main__"  
+- When imported → __name__ = module name  
+
+---
+
+### 📂 Using with Multiple Files
+- Helps control code execution when modules are imported  
+- Prevents certain code from running during import  
+- Allows reuse of functions across files  
+
+---
+
+### 💡 Concept
+- Code inside `if __name__ == "__main__"` runs only when the file is executed directly  
+- Not executed when the file is imported  
+
+---
+
+## 🐍 Python – Exception Handling
+
+### ⚠️ Exception Handling
+- Used to handle runtime errors  
+- Prevents program from crashing  
+
+---
+
+### 🔹 try / except
+- `try` → code that may cause error  
+- `except` → handles the error  
+
+---
+
+### ❌ ZeroDivisionError
+- Occurs when dividing by zero  
+- Specific type of exception  
+
+---
+
+### 🧠 Exception as e
+- Captures error object  
+- Allows access to error message  
+
+---
+
+### 🔍 Type of Exception
+- `type(e).__name__` → gives exception name  
+- Helps identify error type  
+
+---
+
+## 🐍 Python – OOP Basics
+
+### 🧱 Class & Objects
+- Class → blueprint for creating objects  
+- Object → instance of a class  
+
+---
+
+### ⚙️ __init__
+- Special method (constructor)  
+- Initializes object properties  
+- Runs automatically when object is created  
+
+---
+
+### 👤 self
+- Refers to current object  
+- Used to access instance variables and methods  
+
+---
+
+### 🔗 Inheritance
+- Deriving a class from another (parent → child)  
+- Child class inherits properties and behavior  
+
+---
+
+### 🆕 Object Creation
+- Objects are created from classes  
+- Each object holds its own data  
+
+---
+
+### 📦 Instances & Subclass
+- Instance → object of a class  
+- Subclass → child class derived from parent  
+
+---
+
+### 🚀 Benefits of Inheritance
+- Code Reuse  
+- Extensibility  
+- Improved Readability  
+
+---
+
 

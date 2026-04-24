@@ -1,93 +1,34 @@
-# DATA SCIENCE JOURNEY
+# 📊 Data Science Journey
 
-# 📊 Data Science Foundations: Business Math & Statistics (Excel)
 ## 📌 Overview
+Learning Data Science from fundamentals to advanced concepts.
 
-This repository documents my journey of learning Data Science from the basics.
+---
 
-## Business Math & Statistics using Excel
-* Total, Average & Revenue
-* Profit & Loss basics
-* Mean, Median, Mode
-* Variance & Standard Deviation
-* Correlations
+## 📈 Business Math & Statistics (Excel)
+- Revenue, Profit & Loss  
+- Mean, Median, Mode  
+- Variance & Standard Deviation  
+- Correlation  
 
-## 📊 MySQL
+---
 
-### 🧠 Basics
-- Database  
-- Tables  
-- Case Insensitivity  
-- Use Database  
+## 🗄️ MySQL
+- Basics & Queries  
+- Conditions & Filtering  
+- Sorting & Aggregations  
+- Advanced (HAVING, CASE, Functions)  
 
-### 🔍 Queries
-- SELECT  
-- WHERE  
-- DISTINCT  
-- COUNT  
-- LIKE  
+---
 
-### ⚙️ Conditions
-- AND / OR  
-- BETWEEN  
-- IN  
-- NULL  
+## 🐍 Python
+- Basics (Variables, Data Types)  
+- Control Flow (IF, Loops)  
+- Functions  
+- Data Structures (List, Dictionary, Tuple)  
+- Modules & JSON  
+- Exception Handling  
+- OOP  
 
-### 📊 Sorting & Limiting
-- ORDER BY  
-- LIMIT  
-- OFFSET  
-
-### 📈 Analytics
-- MIN / MAX  
-- AVG  
-- ROUND  
-- GROUP BY  
-- AS (Alias)
-
-## 📊 MySQL – Advanced
-
-- HAVING Clause  
-- Calculated Columns  
-- Date Functions (CURDATE, YEAR)  
-- Formulas  
-- IF Conditions  
-- CASE Statements  
-
-## 🐍 Python – Basics
-
-- Variables  
-- Numbers  
-- Strings  
-- Lists
-- IF statement
-
-## 🐍 Python – Loops
-
-- for loop  
-- range()  
-- len() with range  
-- continue  
-- break  
-- while loop  
-
-## 🐍 Python – Functions
-
-- Function  
-- Return Value  
-- Arguments  
-- Function Body  
-- Global vs Local Variables  
-- Documentation  
-<<<<<<< HEAD
-
-## 🐍 Python – Dictionary
-
-- Dictionary  
-- Add / Delete Entry  
-- Iteration (for loop)  
-- Membership (in)  
-- Clear Values  
-=======
-
+---
 
