@@ -6,7 +6,6 @@
 This repository documents my journey of learning Data Science from the basics.
 
 ## Business Math & Statistics using Excel
-
 * Total, Average & Revenue
 * Profit & Loss basics
 * Mean, Median, Mode
@@ -90,4 +89,5 @@ This repository documents my journey of learning Data Science from the basics.
 - Membership (in)  
 - Clear Values  
 =======
->>>>>>> ca5e7a973aded03feada47826b42db4a4bfd1524
+
+
