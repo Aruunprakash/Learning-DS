@@ -8,7 +8,7 @@ def show_details():
 
 
 def add_user():
-        name=input("Enter your name: ")
+        name=input("Enter your name: ").lower()
         age=input("Enter your age: ")
         balance=input("Enter your balance: ")
         if name in details:
@@ -20,16 +20,20 @@ def add_user():
 
 def add_expense():
     name=input("Enter your name: ").lower()
-    expense=int(input("Enter your expense: "))
-    new_balance=details[name]["balance"]+expense
-    details[name]={"age":age,"balance":new_balance}
-    return name,new_balance
+    if name in details:
+        expense=int(input("Enter your expense: "))
+        new_balance=details[name]["balance"]+expense
+        details[name]={"balance":new_balance}
+        return name, new_balance
+    else:
+        print("Account does not exist")
+
 
 def delete_entry():
     name=input("Enter your name: ")
     if name in details:
-        confrim=input(f"are you sure you want to delete this account? {name} (y/n) ? ")
-        if input.lower()=="y":
+        confirm=input(f"are you sure you want to delete this account? {name} (y/n) ? ")
+        if confirm.lower()=="y":
             details.pop(name)
     else:
         print("account does not exist")
