@@ -8,29 +8,45 @@ def show_details():
 
 
 def add_user():
-        name=input("Enter your name: ").lower()
-        age=input("Enter your age: ")
-        balance=input("Enter your balance: ")
+        name=input("Enter your name: ").lower().strip()
+        try:
+            age=int(input("Enter your age: "))
+            balance=int(input("Enter your balance: "))
+        except ValueError:
+            print("invalid input. Please use numbers for age and balance")
+            return
         if name in details:
             print("Account already exists")
+            return
         else:
-            details[name]={"name":name,"age":age,"balance":balance}
+            details[name]={"age":age,"balance":balance}
             print("Account created successfully")
         return name,age,balance
 
+
 def add_expense():
-    name=input("Enter your name: ").lower()
-    if name in details:
-        expense=int(input("Enter your expense: "))
-        new_balance=details[name]["balance"]+expense
-        details[name]={"balance":new_balance}
-        return name, new_balance
-    else:
+    name = input("Enter your name: ").lower().strip()
+    if name not in details:
         print("Account does not exist")
+        return
+
+    mode = input("credit or debit? ").lower().strip()
+
+    try:
+        expense = int(input("Enter the amount: "))
+
+        if mode == "debit":
+            details[name]["balance"] -= expense
+        else:
+            details[name]["balance"] += expense
+
+        print(f"Success! Current balance: {details[name]['balance']}")
+    except ValueError:
+        print("Invalid input. Please enter a whole number for the amount.")
 
 
 def delete_entry():
-    name=input("Enter your name: ")
+    name=input("Enter your name: ").lower().strip()
     if name in details:
         confirm=input(f"are you sure you want to delete this account? {name} (y/n) ? ")
         if confirm.lower()=="y":
