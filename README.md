@@ -13,7 +13,7 @@ Learning Data Science from fundamentals to advanced concepts.
 
 ---
 
-## 🗄️ MySQL
+## 🗄️
 - Basics & Queries  
 - Conditions & Filtering  
 - Sorting & Aggregations  
