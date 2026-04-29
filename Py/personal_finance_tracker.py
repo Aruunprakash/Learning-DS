@@ -3,15 +3,20 @@ import sys
 import json
 import os
 
-details={"karan":{"age":26,"balance":45000},
-        "aswin":{"age":23,"balance":50000},
-         "athul":{"age":25,"balance":36000}}
+def load_deetails():
+    if os.path.exists('finance_tracker.json'):
+        with open('finance_tracker.json','r') as f:
+            return json.load(f)
+    else:
+        return {"karan":{"age":26,"balance":45000},
+                "aswin":{"age":23,"balance":50000},
+                "athul":{"age":25,"balance":36000}}
 
-filename="finance_tracker.json"
-with open('finance_tracker.json','w') as f:
-    json.dump(details,f)
+details=load_deetails()
 
-print("Successfully added to file")
+def sync_data():
+    with open('finance_tracker.json', 'w') as f:
+        json.dump(details, f, indent=4)
 
 def show_details():
     print("account details")
@@ -32,6 +37,7 @@ def add_user():
             return
         else:
             details[name]={"age":age,"balance":balance}
+            sync_data()
             print("Account created successfully")
         return name,age,balance
 
@@ -51,7 +57,7 @@ def add_expense():
             details[name]["balance"] -= expense
         else:
             details[name]["balance"] += expense
-
+        sync_data()
         print(f"Success! Current balance: {details[name]['balance']}")
     except ValueError:
         print("Invalid input. Please enter a whole number for the amount.")
@@ -63,17 +69,13 @@ def delete_entry():
         confirm=input(f"are you sure you want to delete this account? {name} (y/n) ? ")
         if confirm.lower()=="y":
             details.pop(name)
+            sync_data()
     else:
         print("account does not exist")
 
 def quit():
     print("Thank you for using personal finance tracker")
     sys.exit()
-
-
-details={"karan":{"age":26,"balance":45000},
-        "aswin":{"age":23,"balance":50000},
-         "athul":{"age":25,"balance":36000}}
 
 while True:
     print("Personal Finance Tracker")
