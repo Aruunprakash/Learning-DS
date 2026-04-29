@@ -1,1 +1,18 @@
-{"karan": {"age": 26, "balance": 45000}, "aswin": {"age": 23, "balance": 50000}, "athul": {"age": 25, "balance": 36000}}
+{
+    "karan": {
+        "age": 26,
+        "balance": 45000
+    },
+    "aswin": {
+        "age": 23,
+        "balance": 50000
+    },
+    "athul": {
+        "age": 25,
+        "balance": 36000
+    },
+    "arun": {
+        "age": 22,
+        "balance": 34500
+    }
+}
