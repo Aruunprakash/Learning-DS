@@ -1,5 +1,17 @@
 #personal_finance_manager
 import sys
+import json
+import os
+
+details={"karan":{"age":26,"balance":45000},
+        "aswin":{"age":23,"balance":50000},
+         "athul":{"age":25,"balance":36000}}
+
+filename="finance_tracker.json"
+with open('finance_tracker.json','w') as f:
+    json.dump(details,f)
+
+print("Successfully added to file")
 
 def show_details():
     print("account details")
