@@ -32,14 +32,13 @@ Learning Data Science from fundamentals to advanced concepts.
 
 ---
 
-## 🧮 NumPy – Operations
+## 🧮 NumPy – Basics
 
-- zeros() / ones()  
-- range initialization  
-- arange()  
-- linspace()  
-- reshape()  
-- ravel()  
-- min() / max()  
-- sum() (axis)  
-- Arithmetic Operations  
+- N-dimensional Arrays  
+- Indexing  
+- Slicing  
+- Range Access  
+- Concatenation  
+
+
+

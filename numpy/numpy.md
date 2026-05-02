@@ -49,6 +49,20 @@
 
 ---
 
+---
+
+### 📏 Range Access
+- Access elements within a range of indices  
+- Useful for subarrays  
+
+---
+
+### 📏 Range Access
+- Access elements within a range of indices  
+- Useful for subarrays  
+
+---
+
 ### 🔁 arange()
 - Generates values within a range  
 - Similar to Python range but returns array  
@@ -90,4 +104,7 @@
 - Includes addition, subtraction, multiplication, division  
 
 ---
+
+
+
 
