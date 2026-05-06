@@ -44,3 +44,9 @@ Learning Data Science from fundamentals to advanced concepts.
 - Random Number Generation  
 
 ---
+
+## 🚀 NumPy Mini Projects
+
+- The Healthcare Data "Healer"  
+- The Satellite Coverage Optimizer  
+- The Weighted Health Risk Scorer  

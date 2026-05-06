@@ -88,3 +88,35 @@
 - Used for simulations and sampling  
 
 ---
+
+## 🚀 NumPy Mini Projects
+
+### 🏥 The Healthcare Data "Healer"
+
+**The Core:**  
+Data Cleaning and Imputation  
+
+**Brief Explanation:**  
+Created a synthetic dataset of patient health metrics (Age, BP, Heart Rate) and intentionally corrupted it with missing values (`-1`). Used Boolean Masking and Mean Imputation to "heal" the data and applied Min-Max Normalization to prepare it for a Machine Learning model.
+
+---
+
+### 🛰️ The Satellite Coverage Optimizer
+
+**The Core:**  
+Spatial Analysis and Broadcasting  
+
+**Brief Explanation:**  
+Simulated 50 satellites at random coordinates across a map. Using Vectorized Math and the Pythagorean theorem, calculated the distance from a specific user to every satellite in one line of code, used `np.argmin` to find the nearest provider, and applied Boolean Indexing to detect signal "dead zones."
+
+---
+
+### ❤️ The Weighted Health Risk Scorer
+
+**The Core:**  
+Feature Engineering and Aggregation  
+
+**Brief Explanation:**  
+After normalizing health data, applied a Weighting Vector to signify that certain columns (like Blood Pressure) were more critical than others. Used Matrix-Vector Multiplication and `axis=1` Summation to collapse the matrix into a single "Risk Score" for every patient.
+
+---
