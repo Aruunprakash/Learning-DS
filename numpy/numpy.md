@@ -1,104 +1,90 @@
-## 🧮 NumPy – Basics
+## 🧮 NumPy – Basics & Operations
 
 ### 📦 Arrays
-- NumPy arrays store multiple values in a single structure  
-- More efficient than Python lists  
+- NumPy arrays store multiple values efficiently  
+- Supports N-dimensional arrays  
 
 ---
 
-### 🔍 Indexing
-- Elements accessed using index  
-- Index starts from 0  
+### 🔍 Indexing & Accessing
+- Elements accessed using indices  
+- Supports multi-dimensional indexing  
 
 ---
 
-### 🧱 Multi-dimensional Arrays
-- Arrays can have more than one dimension  
-- Used for matrix-like data  
+### ✂️ Slicing & Range Access
+- Extract subarrays using slicing  
+- `:` selects all elements in a dimension  
+- Supports accessing values using ranges  
 
 ---
 
-### 📐 Dimensions
-- `ndim` → shows number of dimensions  
+### 🔗 Concatenation
+- Combines multiple arrays  
+- Can join along rows or columns  
 
 ---
 
-### 🧾 Data Types
-- `dtype` → shows type of elements  
-- Ensures consistency in array  
+### 📐 Dimensions & Shape
+- `ndim` → number of dimensions  
+- `reshape()` → changes array shape  
+- `ravel()` → flattens array into 1D  
 
 ---
 
-### 💾 Size & Memory
+### 🧾 Data Type & Memory
+- `dtype` → data type of elements  
 - `size` → total number of elements  
 - `itemsize` → memory used per element  
 
 ---
 
-## 🧮 NumPy – Operations
-
-### 🔢 zeros() / ones()
-- Creates arrays filled with zeros or ones  
-- Useful for initialization  
-
----
-
-### 📏 Range Initialization
-- Used to generate sequences of numbers  
-- Stored in variables for computation  
+### 🔢 Array Initialization
+- `zeros()` / `ones()` → initialize arrays  
+- `arange()` → generate values in range  
+- `linspace()` → evenly spaced values  
 
 ---
 
----
-
-### 📏 Range Access
-- Access elements within a range of indices  
-- Useful for subarrays  
-
----
-
-### 🔁 arange()
-- Generates values within a range  
-- Similar to Python range but returns array  
+### ➕ Arithmetic Operations
+- Supports basic arithmetic operations  
+- Vectorized computations  
+- Element-wise operations between arrays  
 
 ---
 
-### 📊 linspace()
-- Generates evenly spaced values  
-- Defined by number of elements  
+### ⚖️ Comparison Operations
+- Compare elements using relational operators  
+- Returns boolean arrays  
 
 ---
 
-### 🔄 reshape()
-- Changes shape of array  
-- Does not modify data  
+### 📡 Broadcasting
+- Performs operations on arrays of different shapes  
+- Automatically aligns compatible dimensions  
 
 ---
 
-### 🧵 ravel()
-- Flattens array into 1D  
-- Returns continuous array  
+### 📊 Aggregate Functions
+- `min()` / `max()` → smallest & largest values  
+- `sum()` → total sum across array or axis  
 
 ---
 
-### 📉 min() / max()
-- Finds smallest and largest values  
-- Can be applied across dimensions  
+### 🎯 Filtering
+- Boolean filtering for conditional selection  
+- Supports AND / OR conditions  
 
 ---
 
-### ➕ sum() with axis
-- Calculates total sum  
-- Axis defines direction (row/column)  
+### 🔀 where() Function
+- Returns values based on conditions  
+- Useful for conditional replacement/filtering  
 
 ---
 
-### ➗ Arithmetic Operations
-- Supports element-wise operations  
-- Includes addition, subtraction, multiplication, division  
+### 🎲 Random Number Generator
+- Generates random values and arrays  
+- Used for simulations and sampling  
 
 ---
-
-
-
-
