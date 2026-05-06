@@ -32,13 +32,15 @@ Learning Data Science from fundamentals to advanced concepts.
 
 ---
 
-## 🧮 NumPy – Basics
+## 🧮 NumPy
+- Arrays & Dimensions  
+- Indexing & Slicing  
+- Concatenation & Reshaping  
+- Array Initialization (`zeros`, `ones`, `arange`, `linspace`)  
+- Arithmetic & Vector Operations  
+- Broadcasting & Comparison Operations  
+- Aggregate Functions (`min`, `max`, `sum`)  
+- Filtering & `where()`  
+- Random Number Generation  
 
-- N-dimensional Arrays  
-- Indexing  
-- Slicing  
-- Range Access  
-- Concatenation  
-
-
-
+---
