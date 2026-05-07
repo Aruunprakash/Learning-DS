@@ -9,7 +9,13 @@
 ---
 
 ### 🧱 Creating DataFrame
-- Can be created using Python dictionaries  
+- Can be created from:
+  - CSV files  
+  - Excel files  
+  - Python dictionaries  
+  - Tuple lists  
+  - List of dictionaries  
+
 - Keys become columns and values become data  
 
 ---
