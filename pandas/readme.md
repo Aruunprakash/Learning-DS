@@ -44,3 +44,42 @@
 - Includes count, mean, std, min, max, etc.  
 
 ---
+
+### 📄 CSV Handling
+- `read_csv` → loads CSV file into DataFrame  
+- `to_csv` → exports DataFrame to CSV  
+- `header` → defines column title row  
+- `index` → include/exclude row labels  
+- `tail()` → displays last few rows  
+- `na_values` → treats specific values as NaN  
+- `nrows` → reads limited number of rows  
+
+---
+
+### 📊 Excel Handling
+- `read_excel` → loads Excel file  
+- `to_excel` → saves DataFrame to Excel  
+- `sheet_name` → specifies worksheet  
+- `startrow` / `startcol` → defines write position  
+- `pd.ExcelWriter` → writes multiple sheets in one file  
+
+---
+
+### 🛠️ Data Cleaning
+- `NaN` → represents missing values
+---
+
+### 🔄 Missing Value Handling & Date Utilities
+- `parse_dates` → converts date columns while loading data  
+- `inplace` → modifies original DataFrame directly  
+- `fillna()` → fills missing values  
+- `ffill` → forward fill using previous value  
+- `bfill` → backward fill using next value  
+- `method` → specifies filling strategy in `fillna()`  
+- `interpolate()` → estimates missing numeric values  
+- `dropna()` → removes missing values  
+- `limit` → restricts number of fills/removals  
+- `thresh` → minimum non-NaN values required  
+- `date_range()` → generates sequence of dates  
+
+---
