@@ -44,3 +44,27 @@
 - Includes count, mean, std, min, max, etc.  
 
 ---
+
+### 📄 CSV Handling
+- `read_csv` → loads CSV file into DataFrame  
+- `to_csv` → exports DataFrame to CSV  
+- `header` → defines column title row  
+- `index` → include/exclude row labels  
+- `tail()` → displays last few rows  
+- `na_values` → treats specific values as NaN  
+- `nrows` → reads limited number of rows  
+
+---
+
+### 📊 Excel Handling
+- `read_excel` → loads Excel file  
+- `to_excel` → saves DataFrame to Excel  
+- `sheet_name` → specifies worksheet  
+- `startrow` / `startcol` → defines write position  
+- `pd.ExcelWriter` → writes multiple sheets in one file  
+
+---
+
+### 🛠️ Data Cleaning
+- `NaN` → represents missing values
+---
