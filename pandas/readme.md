@@ -68,3 +68,18 @@
 ### 🛠️ Data Cleaning
 - `NaN` → represents missing values
 ---
+
+### 🔄 Missing Value Handling & Date Utilities
+- `parse_dates` → converts date columns while loading data  
+- `inplace` → modifies original DataFrame directly  
+- `fillna()` → fills missing values  
+- `ffill` → forward fill using previous value  
+- `bfill` → backward fill using next value  
+- `method` → specifies filling strategy in `fillna()`  
+- `interpolate()` → estimates missing numeric values  
+- `dropna()` → removes missing values  
+- `limit` → restricts number of fills/removals  
+- `thresh` → minimum non-NaN values required  
+- `date_range()` → generates sequence of dates  
+
+---
