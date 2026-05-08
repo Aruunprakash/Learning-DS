@@ -13,7 +13,7 @@ Learning Data Science from fundamentals to advanced concepts.
 
 ---
 
-## 🗄️
+## 🗄️ SQL
 - Basics & Queries  
 - Conditions & Filtering  
 - Sorting & Aggregations  
@@ -32,3 +32,21 @@ Learning Data Science from fundamentals to advanced concepts.
 
 ---
 
+## 🧮 NumPy
+- Arrays & Dimensions  
+- Indexing & Slicing  
+- Concatenation & Reshaping  
+- Array Initialization (`zeros`, `ones`, `arange`, `linspace`)  
+- Arithmetic & Vector Operations  
+- Broadcasting & Comparison Operations  
+- Aggregate Functions (`min`, `max`, `sum`)  
+- Filtering & `where()`  
+- Random Number Generation  
+
+---
+
+## 🚀 NumPy Mini Projects
+
+- The Healthcare Data "Healer"  
+- The Satellite Coverage Optimizer  
+- The Weighted Health Risk Scorer  
