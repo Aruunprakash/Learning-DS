@@ -93,3 +93,13 @@
 - Multiple Value Replacement → replace values using two lists  
 
 ---
+
+## 🐼 Pandas – GroupBy
+
+- `groupby()` → groups data based on column values  
+- GroupBy Arguments → define grouping columns and behavior  
+- Access Groups using `for` loop → iterate through grouped data  
+- `get_group()` → retrieves a specific group  
+- `numeric_only` → used when operations should apply only to numeric columns  
+
+---
