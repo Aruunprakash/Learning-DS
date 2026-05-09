@@ -50,3 +50,16 @@ Learning Data Science from fundamentals to advanced concepts.
 - The Healthcare Data "Healer"  
 - The Satellite Coverage Optimizer  
 - The Weighted Health Risk Scorer  
+
+## 🐼 Pandas
+- DataFrames & Series  
+- DataFrame Creation (CSV, Excel, Dictionary)  
+- Filtering & Basic Operations  
+- CSV & Excel Handling  
+- Data Cleaning & Missing Values  
+- Replace & Mapping  
+- GroupBy Operations  
+- Concat & Merge  
+- Pivot & Pivot Tables  
+
+---
