@@ -103,3 +103,14 @@
 - `numeric_only` → used when operations should apply only to numeric columns  
 
 ---
+
+## 🐼 Pandas – Concat & Series
+
+- `concat()` → combines DataFrames or Series  
+- `ignore_index` → resets index after concatenation  
+- `keys` → adds labels to concatenated objects  
+- `axis` → defines row-wise or column-wise concatenation  
+- Index in DataFrame Creation → maintains order and accurate alignment  
+- `Series` → one-dimensional labeled data structure  
+
+---
