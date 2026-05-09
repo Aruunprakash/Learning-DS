@@ -114,3 +114,15 @@
 - `Series` → one-dimensional labeled data structure  
 
 ---
+
+## 🐼 Pandas – Merge & Join
+
+- `merge()` → combines DataFrames based on common columns  
+- Inner Join → returns matching records from both DataFrames  
+- Outer Join → returns all records with NaN for non-matches  
+- Left Join → keeps all rows from left DataFrame  
+- Right Join → keeps all rows from right DataFrame  
+- `indicator` → shows source of merged rows  
+- `suffixes` → differentiates same column names after merge  
+
+---
