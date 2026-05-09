@@ -126,3 +126,21 @@
 - `suffixes` → differentiates same column names after merge  
 
 ---
+
+## 🐼 Pandas – Pivot & Pivot Table
+
+- `pivot()` → reshapes data using index, columns, and values  
+- `index` → defines row grouping  
+- `columns` → defines column categories  
+- `values` → specifies data values to display  
+
+---
+
+- `pivot_table()` → creates summarized pivot tables  
+- `aggfunc` → defines aggregation function (sum, mean, count, etc.)  
+- `margins` → adds total rows and columns  
+- `Grouper` → groups data dynamically (commonly dates/time)  
+- `freq` → sets grouping frequency (daily, monthly, yearly, etc.)  
+- Supports grouping and summarization for different cases  
+
+---
