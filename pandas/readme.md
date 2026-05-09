@@ -83,3 +83,13 @@
 - `date_range()` → generates sequence of dates  
 
 ---
+
+## 🐼 Pandas – Replace & Mapping
+
+- `replace()` → replaces existing values  
+- Replace using Lists → replace multiple values together  
+- Replace using Dictionary → map old values to new values  
+- Value Mapping → transform values using key-value mapping  
+- Multiple Value Replacement → replace values using two lists  
+
+---
