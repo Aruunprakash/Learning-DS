@@ -144,3 +144,12 @@
 - Supports grouping and summarization for different cases  
 
 ---
+
+## 🐼 Pandas – Melt
+
+- `melt()` → transforms wide-format data into long-format  
+- `id_vars` → columns kept fixed during transformation  
+- `var_name` → name assigned to variable column  
+- Useful for reshaping and organizing data  
+
+---
