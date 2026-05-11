@@ -73,3 +73,12 @@
 - `startangle` → rotates the starting position of the chart  
 
 ---
+
+## 💾 Matplotlib – Saving Figures
+
+- `plt.savefig()` → saves plot/figure as image file
+- `bbox_inches="tight"` → removes extra surrounding whitespace  
+- `pad_inches=1` → adds padding around saved figure  
+- `transparent=True` → saves image with transparent background  
+
+---
