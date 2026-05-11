@@ -57,3 +57,19 @@
 - `orientation` → sets vertical or horizontal layout  
 
 ---
+
+## 🥧 Matplotlib – Pie Chart
+
+- `plt.pie(values, labels=[...])` → creates pie chart with labeled slices  
+- `plt.axis("equal")` → ensures the pie chart remains circular  
+- `radius` → adjusts the overall size of the pie chart  
+
+- `autopct="%0.2f%%"` → displays percentage values on slices  
+  - `%0.2f` → formats value as float with 2 decimal places  
+  - `%%` → displays the percentage symbol `%`  
+  - Example → `12.45%`  
+
+- `explode` → separates/highlights selected slices  
+- `startangle` → rotates the starting position of the chart  
+
+---
