@@ -36,3 +36,24 @@
 - `grid()` → adds background grid for better readability  
 
 ---
+
+## 📊 Matplotlib – Bar Graphs
+
+- `plt.bar()` → creates vertical bar graph  
+- `plt.barh()` → creates horizontal bar graph  
+- `xticks()` → customizes x-axis labels and positions  
+- `np.arange()` → generates index positions for bars  
+- `width` → controls bar thickness/width  
+
+---
+
+## 📊 Matplotlib – Histogram
+
+- `plt.hist()` → creates histogram for data distribution  
+- `bins` → defines number/range of intervals  
+- `rwidth` → controls relative bar width  
+- `color` → sets histogram color  
+- `histtype` → defines histogram style  
+- `orientation` → sets vertical or horizontal layout  
+
+---
