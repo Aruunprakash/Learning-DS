@@ -17,15 +17,15 @@ Learning Data Science from fundamentals to advanced concepts.
 - Basics & Queries  
 - Conditions & Filtering  
 - Sorting & Aggregations  
-- Advanced (HAVING, CASE, Functions)  
+- Advanced SQL Concepts  
 
 ---
 
 ## 🐍 Python
-- Basics (Variables, Data Types)  
-- Control Flow (IF, Loops)  
+- Basics & Data Types  
+- Control Flow & Loops  
 - Functions  
-- Data Structures (List, Dictionary, Tuple)  
+- Data Structures  
 - Modules & JSON  
 - Exception Handling  
 - OOP  
@@ -34,32 +34,40 @@ Learning Data Science from fundamentals to advanced concepts.
 
 ## 🧮 NumPy
 - Arrays & Dimensions  
-- Indexing & Slicing  
-- Concatenation & Reshaping  
-- Array Initialization (`zeros`, `ones`, `arange`, `linspace`)  
-- Arithmetic & Vector Operations  
-- Broadcasting & Comparison Operations  
-- Aggregate Functions (`min`, `max`, `sum`)  
-- Filtering & `where()`  
-- Random Number Generation  
+- Indexing, Slicing & Reshaping  
+- Array Initialization  
+- Arithmetic & Broadcasting  
+- Aggregate Functions  
+- Filtering & Random Generation  
 
 ---
 
 ## 🚀 NumPy Mini Projects
+- Healthcare Data Healer  
+- Satellite Coverage Optimizer  
+- Weighted Health Risk Scorer  
 
-- The Healthcare Data "Healer"  
-- The Satellite Coverage Optimizer  
-- The Weighted Health Risk Scorer  
+---
 
 ## 🐼 Pandas
 - DataFrames & Series  
-- DataFrame Creation (CSV, Excel, Dictionary)  
-- Filtering & Basic Operations  
-- CSV & Excel Handling  
+- Data Import/Export  
+- Filtering & Operations  
 - Data Cleaning & Missing Values  
-- Replace & Mapping  
-- GroupBy Operations  
-- Concat & Merge  
-- Pivot & Pivot Tables  
+- Replace, Mapping & GroupBy  
+- Concat, Merge & Pivot Tables  
+
+---
+
+## 🚀 Pandas Mini Projects
+- Movie Production & Marketing Optimizer
+- Global E-Commerce Performance Analyzer
+
+## 📈 Matplotlib
+- Line Plots & Styling  
+- Legends & Multiple Plots  
+- Bar Graphs & Histograms  
+- Pie Charts  
+- Saving Figures  
 
 ---
