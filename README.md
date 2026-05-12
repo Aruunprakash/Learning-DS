@@ -63,6 +63,8 @@ Learning Data Science from fundamentals to advanced concepts.
 - Movie Production & Marketing Optimizer
 - Global E-Commerce Performance Analyzer
 
+---
+
 ## 📈 Matplotlib
 - Line Plots & Styling  
 - Legends & Multiple Plots  
