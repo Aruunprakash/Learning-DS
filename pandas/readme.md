@@ -153,3 +153,19 @@
 - Useful for reshaping and organizing data  
 
 ---
+
+## 🐼 Pandas – Crosstab
+
+- `pd.crosstab()` → generates frequency table between columns  
+- `pd.crosstab(df.row_name, df.column_name)` → compares categorical data  
+- `margins=True` → adds row/column totals  
+- `normalize="index"` → normalizes values row-wise into proportions  
+- `values` → specifies data for aggregation  
+- `aggfunc = np.average` → applies average aggregation in crosstab  
+
+---
+
+### 📓 Notebook Utility
+- `Shift + Tab` → displays function documentation and parameter help in notebooks  
+
+---
