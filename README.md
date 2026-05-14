@@ -56,12 +56,14 @@ Learning Data Science from fundamentals to advanced concepts.
 - Data Cleaning & Missing Values  
 - Replace, Mapping & GroupBy  
 - Concat, Merge & Pivot Tables  
+- Crosstab & Time Series  
+- Date Range & Frequency Handling  
 
 ---
 
 ## 🚀 Pandas Mini Projects
-- Movie Production & Marketing Optimizer
-- Global E-Commerce Performance Analyzer
+- Movie Production & Marketing Optimizer  
+- Global E-Commerce Performance Analyzer  
 
 ---
 
