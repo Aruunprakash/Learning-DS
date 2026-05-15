@@ -87,3 +87,32 @@
 - Improve accuracy in business/time-series datasets  
 
 ---
+
+## 🕒 Pandas – DateTime Conversion
+
+- `to_datetime()` → converts data into datetime format  
+- `format="mixed"` → handles multiple date formats  
+- `dayfirst=True` → interprets day before month  
+
+- `pd.to_datetime('5$1$2017', format="%d$%m$%Y")`
+  → converts custom formatted date strings  
+
+---
+
+### ⚠️ Error Handling
+- `errors` → controls invalid date handling  
+  - `"raise"` → throws error  
+  - `"coerce"` → converts invalid values to `NaT`  
+  - `"ignore"` → keeps original values  
+
+- `NaT` → represents missing/invalid datetime values  
+
+---
+
+### ⏱️ Epoch Time
+- `unit` → defines epoch time unit  
+  - `"s"` → seconds  
+  - `"ms"` → milliseconds  
+  - `"us"` → microseconds  
+
+---

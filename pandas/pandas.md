@@ -216,3 +216,14 @@
 - `holidays=["YYYY-MM-DD"]` → manually specifies holiday dates  
 
 ---
+
+## 🕒 Pandas – DateTime Handling
+
+- `to_datetime()` → converts values into datetime format  
+- `format` → specifies custom date format  
+- `dayfirst=True` → treats day before month  
+- `errors` → handles invalid datetime values  
+- `NaT` → represents missing/invalid datetime  
+- Epoch Time → datetime conversion using `unit`  
+
+---
