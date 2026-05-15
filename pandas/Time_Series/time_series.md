@@ -57,3 +57,33 @@
 - Date ranges can be used as index for time series  
 
 ---
+
+## 🕒 Pandas – Holiday Handling in Time Series
+
+### 📅 Federal Holiday Calendars
+- `USFederalHolidayCalendar` → provides predefined U.S. federal holidays  
+- `CustomBusinessDay` → creates business-day frequency excluding holidays  
+
+---
+
+### 🏢 Custom Business Days
+- `calendar` → applies holiday calendar to business days  
+- Useful for financial and business time-series analysis  
+
+---
+
+### 🎉 Creating Custom Holidays
+- `month` → specifies holiday month  
+- `day` → specifies holiday date  
+- `observance` → adjusts holiday observation rules  
+- `weekmask` → defines working days in a week  
+- `holidays=["YYYY-MM-DD"]` → manually defines holiday dates  
+
+---
+
+### 📊 Use Cases
+- Skip weekends and holidays in analysis  
+- Generate holiday-aware date ranges  
+- Improve accuracy in business/time-series datasets  
+
+---

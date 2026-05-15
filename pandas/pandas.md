@@ -204,3 +204,15 @@
 - `np.random.randint()` → generates random values  
 
 ---
+
+### 🎉 Holiday Handling
+
+- `USFederalHolidayCalendar` → predefined U.S. federal holidays  
+- `CustomBusinessDay` → custom business-day frequency excluding holidays  
+- `calendar` → applies holiday calendar to business dates  
+- `month` / `day` → define custom holiday dates  
+- `observance` → adjusts holiday observation rules  
+- `weekmask` → defines working days of the week  
+- `holidays=["YYYY-MM-DD"]` → manually specifies holiday dates  
+
+---
