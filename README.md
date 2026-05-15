@@ -58,6 +58,7 @@ Learning Data Science from fundamentals to advanced concepts.
 - Concat, Merge & Pivot Tables  
 - Crosstab & Time Series  
 - Date Range & Frequency Handling  
+- DateTime & Holiday Handling  
 
 ---
 
@@ -75,4 +76,3 @@ Learning Data Science from fundamentals to advanced concepts.
 - Saving Figures  
 
 ---
-
