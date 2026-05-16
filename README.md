@@ -57,7 +57,8 @@ Learning Data Science from fundamentals to advanced concepts.
 - Replace, Mapping & GroupBy  
 - Concat, Merge & Pivot Tables  
 - Melt, Crosstab & Stack/Unstack  
-- DateTime, Time Series & PeriodIndex  
+- DateTime, Time Series, Shift & Time Zones  
+- Period & PeriodIndex  
 - Date Range, Frequency & Holiday Handling  
 
 ---
