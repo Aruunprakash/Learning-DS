@@ -258,3 +258,12 @@
 - `x.end_time` → extracts end time  
 
 ---
+
+## 🕒 Pandas – Time Zone Handling
+
+- `tz_localize()` → assigns timezone to datetime data  
+- `tz_convert()` → converts data between time zones  
+- `df.index` → accesses datetime index  
+- `dateutil` → supports parsing and timezone handling  
+
+---

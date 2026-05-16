@@ -185,3 +185,23 @@
 - `x.end_time` → extracts end time of each period  
 
 ---
+
+## 🕒 Pandas – Time Zones
+
+- `tz_localize()` → assigns time zone to datetime index  
+- `tz="Asia/Shanghai"` → specifies target timezone  
+- `df.index` → accesses datetime index  
+
+---
+
+### 🌍 Time Zone Conversion
+- `tz_convert()` → converts datetime from one timezone to another  
+- Useful for handling global time-series data  
+
+---
+
+### 📅 dateutil
+- `dateutil` → library for parsing and handling date/time values  
+- Supports flexible date formats and timezone operations  
+
+---
