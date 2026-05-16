@@ -267,3 +267,12 @@
 - `dateutil` → supports parsing and timezone handling  
 
 ---
+
+## 🐼 Pandas – Shift
+
+- `shift()` → shifts data forward or backward  
+- `periods` → number of positions to shift  
+- `freq` → shifts based on date/time frequency  
+- Used for lag values, trend analysis, and time-series comparisons  
+
+---

@@ -205,3 +205,19 @@
 - Supports flexible date formats and timezone operations  
 
 ---
+
+## 🕒 Shift
+
+- `shift()` → moves data forward or backward in time  
+- `periods` → number of rows/time steps to shift  
+- `freq` → shifts based on specified time frequency  
+
+---
+
+### 📊 Use Cases
+- Create lag features  
+- Compare previous and current values  
+- Time-series trend analysis  
+- Growth and forecasting calculations  
+
+---
