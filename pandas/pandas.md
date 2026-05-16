@@ -227,3 +227,34 @@
 - Epoch Time → datetime conversion using `unit`  
 
 ---
+
+## 🕒 Pandas – Period & PeriodIndex
+
+### 📅 Period
+- `Period` → represents a span of time instead of a specific timestamp  
+- `start_time` → beginning of period  
+- `end_time` → end of period  
+- `month`, `day`, `hour` → extracts period information  
+- Arithmetic operations (`+`, `-`) → shifts periods  
+- Offsets → moves periods based on frequency  
+- Quarterly periods (`Q`) → represents quarter-based data  
+- `asfreq()` → converts period frequency (Month, Day, etc.)  
+
+---
+
+### 📊 PeriodIndex
+- `PeriodIndex` → index using time periods  
+- Arguments:
+  - `start`
+  - `end`
+  - `periods`
+  - `freq`
+
+- `period_range()` → generates sequence of periods  
+- `np.random.randn()` → generates random values  
+- `["start":"end"]` → slices period ranges  
+- `df.index.map()` → applies functions to period index  
+- `x.start_time` → extracts start time  
+- `x.end_time` → extracts end time  
+
+---

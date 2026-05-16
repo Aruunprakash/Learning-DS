@@ -147,3 +147,41 @@
   - Day (`D`)  
 
 ---
+
+## 🕒 Pandas – PeriodIndex
+
+- `PeriodIndex` → index based on time periods instead of timestamps  
+- Used for time-series data grouped by month, quarter, year, etc.  
+
+---
+
+### 📅 PeriodIndex Arguments
+- `start` → starting period  
+- `end` → ending period  
+- `periods` → number of periods  
+- `freq` → frequency of periods  
+
+---
+
+### 🔄 Period Range
+- `period_range()` → creates sequence of periods  
+- Supports frequencies such as daily, monthly, quarterly, yearly  
+
+---
+
+### 🎲 Random Data Generation
+- `np.random.randn()` → generates random values from normal distribution  
+
+---
+
+### ✂️ Slicing
+- `["start":"end"]` → accesses data between period ranges  
+
+---
+
+### 📌 Mapping Period Properties
+- `df.index.map()` → applies function to index values  
+- `x.start_time` → extracts start time of each period  
+- `x.end_time` → extracts end time of each period  
+
+---
