@@ -116,3 +116,34 @@
   - `"us"` → microseconds  
 
 ---
+
+## 🕒 Pandas – Period & PeriodIndex
+
+- `Period` → represents a span of time instead of a specific timestamp  
+- `dir(y)` → displays available properties and methods of period object  
+
+---
+
+### 📅 Period Properties
+- `start_time` → starting timestamp of period  
+- `end_time` → ending timestamp of period  
+- `month` → extracts month value  
+- `day` → extracts day value  
+- `hour` → extracts hour value  
+
+---
+
+### ➕ Arithmetic Operations & Offsets
+- Arithmetic operations (`+`, `-`) → shift periods forward or backward  
+- Offsets → move periods by specified frequency units  
+
+---
+
+### 📊 Frequency Conversion
+- Quarterly periods → represent data by quarter (`Q`)  
+- `asfreq()` → converts period frequency  
+- Convert to:
+  - Month (`M`)  
+  - Day (`D`)  
+
+---
