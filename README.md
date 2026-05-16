@@ -56,9 +56,9 @@ Learning Data Science from fundamentals to advanced concepts.
 - Data Cleaning & Missing Values  
 - Replace, Mapping & GroupBy  
 - Concat, Merge & Pivot Tables  
-- Crosstab & Time Series  
-- Date Range & Frequency Handling  
-- DateTime & Holiday Handling  
+- Melt, Crosstab & Stack/Unstack  
+- DateTime, Time Series & PeriodIndex  
+- Date Range, Frequency & Holiday Handling  
 
 ---
 
