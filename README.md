@@ -76,3 +76,9 @@ Learning Data Science from fundamentals to advanced concepts.
 - Pie Charts  
 - Saving Figures  
 
+## 🤖 Machine Learning
+- ML Fundamentals
+- Scikit-Learn Basics  
+- Simple Linear Regression 
+
+---
