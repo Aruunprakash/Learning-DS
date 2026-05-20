@@ -37,3 +37,25 @@ Machine Learning enables systems to learn from data and make predictions using m
 - `word2number`  
 
 ---
+
+## 🎯 Prediction Function
+
+- Used to predict output values from trained input data  
+- Generates estimated values using the learned model  
+
+---
+
+## 📉 Mean Squared Error (MSE)
+
+- Measures the average squared difference between actual and predicted values  
+- Lower MSE indicates better model accuracy  
+
+---
+
+## 📈 Gradient Descent
+
+- Algorithm used to minimize prediction error  
+- Updates model parameters step by step  
+- Helps find the best-fit line/model  
+
+---
