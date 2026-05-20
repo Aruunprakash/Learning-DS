@@ -7,10 +7,10 @@ def gradient_descent(x,y):
     m_curr = b_curr = 0
 
     # Number of times algorithm will update values
-    iterations = 100
+    iterations = 10000
 
     # Controls step size while moving towards minimum error
-    learning_rate = 0.01
+    learning_rate = 0.08
 
     # Total number of data points
     n = len(x)

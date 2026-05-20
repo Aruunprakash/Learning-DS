@@ -38,24 +38,29 @@ Machine Learning enables systems to learn from data and make predictions using m
 
 ---
 
-## 🎯 Prediction Function
+## 📉 Error & Optimization
 
-- Used to predict output values from trained input data  
-- Generates estimated values using the learned model  
-
----
-
-## 📉 Mean Squared Error (MSE)
-
-- Measures the average squared difference between actual and predicted values  
-- Lower MSE indicates better model accuracy  
+### 🎯 Prediction Function
+- Predicts output using trained data  
 
 ---
 
-## 📈 Gradient Descent
+### 📉 Mean Squared Error (MSE)
+- Measures prediction error  
+- Lower value → better model performance  
 
-- Algorithm used to minimize prediction error  
-- Updates model parameters step by step  
-- Helps find the best-fit line/model  
+---
+
+### 📈 Gradient Descent
+- Minimizes error by updating model parameters step by step  
+
+---
+
+### ⚙️ Learning Rate & Iterations
+- Learning Rate → controls update step size  
+- Small → slower but stable  
+- Large → faster but may overshoot  
+- Iterations → number of updates performed  
+- Increase gradually for better convergence  
 
 ---
