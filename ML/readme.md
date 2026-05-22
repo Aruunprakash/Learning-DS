@@ -63,4 +63,13 @@ Machine Learning enables systems to learn from data and make predictions using m
 - Iterations → number of updates performed  
 - Increase gradually for better convergence  
 
+## 🔍 Convergence Check
+
+- `math.isclose()` → checks if two values are nearly equal  
+- `rel_tol` → sets relative tolerance level  
+- `rel_tol=1e-20` → very small tolerance for precise comparison  
+- Useful for checking if Gradient Descent has converged  
+
+---
+
 ---
