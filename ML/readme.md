@@ -54,8 +54,6 @@ Machine Learning enables systems to learn from data and make predictions using m
 ### 📈 Gradient Descent
 - Minimizes error by updating model parameters step by step  
 
----
-
 ### ⚙️ Learning Rate & Iterations
 - Learning Rate → controls update step size  
 - Small → slower but stable  
@@ -71,5 +69,19 @@ Machine Learning enables systems to learn from data and make predictions using m
 - Useful for checking if Gradient Descent has converged  
 
 ---
+
+## 💾 Model Saving & Loading
+
+### 📦 Pickle
+- `pickle.dump()` → saves trained model into a file  
+- `pickle.load()` → loads saved model back into program  
+- `'wb'` → write binary mode  
+- `'rb'` → read binary mode  
+
+---
+
+### ⚡ Joblib
+- `joblib.dump()` → saves model efficiently  
+- Faster and preferred for large ML models  
 
 ---
