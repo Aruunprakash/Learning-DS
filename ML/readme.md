@@ -36,6 +36,27 @@ Machine Learning enables systems to learn patterns from data and make prediction
 
 ---
 
+## 🔢 Categorical Data Handling
+
+### 📦 Encoding
+- Label Encoding (`LabelEncoder`)  
+- `fit_transform()`  
+- One Hot Encoding (`OneHotEncoder`)  
+
+### 🔄 Feature Transformation
+- `ColumnTransformer()`  
+- `transformers`  
+- `drop='first'`  
+- `dtype=int`  
+- `remainder='passthrough'`  
+
+### 🐼 Pandas Utilities
+- Dummy Variables  
+- `pd.get_dummies()`  
+- `df.drop()`  
+
+---
+
 ## 📉 Model Optimization
 
 ### 🎯 Prediction
@@ -58,14 +79,6 @@ Machine Learning enables systems to learn patterns from data and make prediction
 ## 💾 Model Persistence
 - Pickle (`dump()`, `load()`)  
 - Joblib (`dump()`)  
-
----
-
-## 🔢 Categorical Data Handling
-- Dummy Variables  
-- One Hot Encoding  
-- `pd.get_dummies()`  
-- `df.drop()`  
 
 ---
 
