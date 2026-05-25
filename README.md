@@ -80,5 +80,6 @@ Learning Data Science from fundamentals to advanced concepts.
 - ML Fundamentals
 - Scikit-Learn Basics  
 - Simple Linear Regression 
+- Joblib & Pickle
 - Dummy Variables & One-Hot Encoding
 ---
