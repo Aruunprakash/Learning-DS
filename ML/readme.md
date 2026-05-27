@@ -97,3 +97,17 @@ Machine Learning enables systems to learn patterns from data and make prediction
 -  Score to check accuracy
 
 ---
+
+## 📊 Logistic Regression
+
+### 📌 Introduction
+- Logistic Regression → classification algorithm used to predict categories/classes  
+- Used for binary outcomes such as Yes/No, Pass/Fail, Spam/Not Spam
+
+---
+
+### 📈 Probability Prediction
+- `predict_proba()` → returns probability for each class  
+- Helps understand prediction confidence  
+
+---
