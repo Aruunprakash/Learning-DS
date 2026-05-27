@@ -86,3 +86,14 @@ Machine Learning enables systems to learn patterns from data and make prediction
 - `model.score()`  
 
 ---
+
+## 🧪 Train-Test Split & Evaluation
+
+### 📂 Data Splitting
+- `train_test_split()` → splits data into training and testing sets  
+- `test_size` → defines proportion of test data  
+- `random_state` → ensures consistent/random reproducible split
+-  Compare predictions with `X_test` / actual values 
+-  Score to check accuracy
+
+---
