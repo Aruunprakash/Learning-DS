@@ -82,4 +82,6 @@ Learning Data Science from fundamentals to advanced concepts.
 - Simple Linear Regression 
 - Joblib & Pickle
 - Dummy Variables & One-Hot Encoding
+- train test split
+- Logistic Regression
 ---
