@@ -79,9 +79,7 @@ Learning Data Science from fundamentals to advanced concepts.
 ## 🤖 Machine Learning
 - ML Fundamentals
 - Scikit-Learn Basics  
-- Simple Linear Regression 
-- Joblib & Pickle
-- Dummy Variables & One-Hot Encoding
-- train test split
+- Simple Linear Regression
 - Logistic Regression
+- Joblib & Pickle
 ---
