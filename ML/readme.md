@@ -111,3 +111,33 @@ Machine Learning enables systems to learn patterns from data and make prediction
 - Helps understand prediction confidence  
 
 ---
+
+## 🎯 Multi-Class Classification
+
+### 📌 Introduction
+- Classification with more than two classes  
+- Example: Digit Recognition (0–9), Animal Classification, Iris Dataset  
+
+---
+
+### 🔍 Model Inspection
+- `dir()` → displays available attributes and methods of an object  
+
+---
+
+### 📊 Visualization
+- `matshow()` → displays matrix data as an image  
+
+---
+
+### 📉 Confusion Matrix
+- `confusion_matrix()` → compares actual and predicted classes  
+- Helps evaluate classification performance  
+
+---
+
+### 🎨 Seaborn Visualization
+- `seaborn` (`sns`) → statistical visualization library  
+- `sns.heatmap(cm, annot=True)` → visualizes confusion matrix with values displayed  
+
+---
