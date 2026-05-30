@@ -14,7 +14,10 @@ Machine Learning enables systems to learn patterns from data and make prediction
 
 ## 🧰 Libraries
 - Scikit-Learn (`sklearn`)
-- Linear Models
+  - linear_model
+  - preprocessing
+  - model_selection
+  - compose
 
 ---
 
