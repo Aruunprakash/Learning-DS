@@ -81,5 +81,6 @@ Learning Data Science from fundamentals to advanced concepts.
 - Scikit-Learn Basics  
 - Simple Linear Regression
 - Logistic Regression
+- Decision Tree
 - Joblib & Pickle
 ---
