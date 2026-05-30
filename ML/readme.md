@@ -6,138 +6,113 @@ Machine Learning enables systems to learn patterns from data and make prediction
 ---
 
 ## 🧠 Fundamentals
-- Machine Learning  
-- Deep Learning  
-- Mathematical Models  
+- Machine Learning
+- Deep Learning
+- Mathematical Models
 
 ---
 
 ## 🧰 Libraries
-- Scikit-Learn (`sklearn`)  
-- Linear Models  
+- Scikit-Learn (`sklearn`)
+- Linear Models
 
 ---
 
-## 📈 Simple Linear Regression
-- Linear Equation (`y = mx + c`)  
-- `LinearRegression()`  
-- `fit()` & `predict()`  
-- `coef_` & `intercept_`  
-- Prediction & Visualization  
+## 📈 Regression
 
----
+### Simple Linear Regression
+- Linear Equation (`y = mx + c`)
+- `LinearRegression()`
+- `fit()` & `predict()`
+- `coef_` & `intercept_`
+- Prediction & Visualization
 
-## 📈 Multiple Linear Regression
-- Multiple Input Variables  
-- Missing Value Handling (`fillna()`, `median()`)  
-- Features (`X`) & Target (`y`)  
-- DataFrame / 2D Array Prediction  
-- `word2number`  
+### Multiple Linear Regression
+- Multiple Input Variables
+- Missing Value Handling (`fillna()`, `median()`)
+- Features (`X`) & Target (`y`)
+- DataFrame / 2D Array Prediction
+- `word2number`
 
 ---
 
 ## 🔢 Categorical Data Handling
 
-### 📦 Encoding
-- Label Encoding (`LabelEncoder`)  
-- `fit_transform()`  
-- One Hot Encoding (`OneHotEncoder`)  
+### Encoding
+- Label Encoding (`LabelEncoder`)
+- `fit_transform()`
+- One Hot Encoding (`OneHotEncoder`)
 
-### 🔄 Feature Transformation
-- `ColumnTransformer()`  
-- `transformers`  
-- `drop='first'`  
-- `dtype=int`  
-- `remainder='passthrough'`  
+### Feature Transformation
+- `ColumnTransformer()`
+- `transformers`
+- `drop='first'`
+- `dtype=int`
+- `remainder='passthrough'`
 
-### 🐼 Pandas Utilities
-- Dummy Variables  
-- `pd.get_dummies()`  
-- `df.drop()`  
+### Pandas Utilities
+- Dummy Variables
+- `pd.get_dummies()`
+- `df.drop()`
 
 ---
 
 ## 📉 Model Optimization
 
-### 🎯 Prediction
-- Prediction Function  
+### Prediction
+- Prediction Function
 
-### 📉 Error Measurement
-- Mean Squared Error (MSE)  
+### Error Measurement
+- Mean Squared Error (MSE)
 
-### 📈 Optimization
-- Gradient Descent  
-- Learning Rate  
-- Iterations  
+### Optimization
+- Gradient Descent
+- Learning Rate
+- Iterations
 
-### 🔍 Convergence
-- `math.isclose()`  
-- `rel_tol`  
+### Convergence
+- `math.isclose()`
+- `rel_tol`
 
 ---
 
 ## 💾 Model Persistence
-- Pickle (`dump()`, `load()`)  
-- Joblib (`dump()`)  
+- Pickle (`dump()`, `load()`)
+- Joblib (`dump()`)
 
 ---
 
-## 📊 Model Evaluation
-- `model.score()`  
+## 🧪 Model Evaluation
+
+### Train-Test Split
+- `train_test_split()`
+  - `test_size`
+  - `random_state`
+
+### Performance
+- Compare Predictions vs Actual Values
+- `model.score()`
 
 ---
 
-## 🧪 Train-Test Split & Evaluation
+## 🎯 Classification
 
-### 📂 Data Splitting
-- `train_test_split()` → splits data into training and testing sets  
-- `test_size` → defines proportion of test data  
-- `random_state` → ensures consistent/random reproducible split
--  Compare predictions with `X_test` / actual values 
--  Score to check accuracy
+### Logistic Regression
+- Binary Classification
+- `predict()`
+- `predict_proba()`
 
----
+### Multi-Class Classification
+- Multi-Class Prediction
+- `dir()`
+- `matshow()`
+- `confusion_matrix()`
+- `sns.heatmap()`
 
-## 📊 Logistic Regression
-
-### 📌 Introduction
-- Logistic Regression → classification algorithm used to predict categories/classes  
-- Used for binary outcomes such as Yes/No, Pass/Fail, Spam/Not Spam
-
----
-
-### 📈 Probability Prediction
-- `predict_proba()` → returns probability for each class  
-- Helps understand prediction confidence  
-
----
-
-## 🎯 Multi-Class Classification
-
-### 📌 Introduction
-- Classification with more than two classes  
-- Example: Digit Recognition (0–9), Animal Classification, Iris Dataset  
-
----
-
-### 🔍 Model Inspection
-- `dir()` → displays available attributes and methods of an object  
-
----
-
-### 📊 Visualization
-- `matshow()` → displays matrix data as an image  
-
----
-
-### 📉 Confusion Matrix
-- `confusion_matrix()` → compares actual and predicted classes  
-- Helps evaluate classification performance  
-
----
-
-### 🎨 Seaborn Visualization
-- `seaborn` (`sns`) → statistical visualization library  
-- `sns.heatmap(cm, annot=True)` → visualizes confusion matrix with values displayed  
+### Decision Trees
+- `DecisionTreeClassifier()`
+- Tree-Based Classification
+  - `criterion='gini'`
+  -  `criterion='entropy'`
 
 ---
