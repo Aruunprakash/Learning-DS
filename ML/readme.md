@@ -119,3 +119,10 @@ Machine Learning enables systems to learn patterns from data and make prediction
   -  `criterion='entropy'`
 
 ---
+
+### Support Vector Machines (SVM)
+- SVM Classification
+- Feature Transformation (`apply()`)
+- Hyperparameter Tuning (`C`, `kernel`, `gamma`)
+
+---
