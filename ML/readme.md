@@ -126,3 +126,8 @@ Machine Learning enables systems to learn patterns from data and make prediction
 - Hyperparameter Tuning (`C`, `kernel`, `gamma`)
 
 ---
+
+### Random Forest
+- Ensemble Methods 
+- Random Forest :- decision tree ensemble
+- `n_estimators` :- no of trees
