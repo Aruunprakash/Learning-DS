@@ -83,4 +83,7 @@ Learning Data Science from fundamentals to advanced concepts.
 - Logistic Regression
 - Decision Tree
 - Joblib & Pickle
+- Random Forest
+- SVM
+
 ---
