@@ -85,5 +85,4 @@ Learning Data Science from fundamentals to advanced concepts.
 - Joblib & Pickle
 - Random Forest
 - SVM
-
 ---
