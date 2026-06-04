@@ -131,3 +131,43 @@ Machine Learning enables systems to learn patterns from data and make prediction
 - Ensemble Methods 
 - Random Forest :- decision tree ensemble
 - `n_estimators` :- no of trees
+## 🔄 Model Validation & Hyperparameter Tuning
+
+---
+
+
+### 📌 K-Fold Cross Validation
+- Splits dataset into multiple folds
+- Trains and tests model on different data partitions
+- Provides more reliable performance evaluation
+
+---
+
+### ⚙️ Parameters
+- `n_splits` → number of folds to create
+
+---
+
+### 🔀 KFold
+- `KFold()` → creates K-Fold validator
+- `kf.split()` → generates train-test indices for each fold
+
+---
+
+### 🎯 Stratified K-Fold
+- `StratifiedKFold()` → preserves class distribution across folds
+- Useful for classification problems
+
+---
+
+### 📊 Cross Validation Score
+- `cross_val_score()` → evaluates model across all folds
+- Returns performance scores for each fold
+
+---
+
+### 🔧 Hyperparameter Tuning
+- Adjusts model parameters to improve performance
+- Helps find the best model configuration
+
+---
