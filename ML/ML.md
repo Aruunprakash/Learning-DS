@@ -106,6 +106,13 @@ Machine Learning enables systems to learn patterns from data and make prediction
 
 ---
 
+### Naive Bayes
+- Gaussian Naive Bayes (`GaussianNB`)
+- Probabilistic Classification
+- `predict()` & `predict_proba()`
+
+---
+
 ## 🧪 Model Evaluation & Validation
 
 ### Train-Test Split
@@ -148,3 +155,4 @@ Machine Learning enables systems to learn patterns from data and make prediction
 - `cluster_centers_`
 
 ---
+
