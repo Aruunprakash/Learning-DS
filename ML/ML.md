@@ -144,6 +144,29 @@ Machine Learning enables systems to learn patterns from data and make prediction
 
 ---
 
+## 📝 Text Processing & Pipelines
+
+### 🔤 Count Vectorizer
+- `CountVectorizer()` → converts text into numerical feature vectors
+- Counts occurrence of words in documents
+- Used for text classification and NLP tasks
+
+---
+
+### 🔄 Pipeline
+- `Pipeline()` → combines multiple preprocessing and modeling steps
+- Automates workflow from input data to prediction
+- Helps keep code clean and organized
+
+---
+
+### ⚙️ Common Usage
+- `CountVectorizer()` → text preprocessing
+- ML Model (`GaussianNB`, `LogisticRegression`, etc.) → classification
+- `Pipeline()` → connects both into a single workflow
+
+---
+
 # 🔍 Unsupervised Learning
 
 ## 🎯 K-Means Clustering
