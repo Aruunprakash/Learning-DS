@@ -78,11 +78,17 @@ Learning Data Science from fundamentals to advanced concepts.
 
 ## 🤖 Machine Learning
 - ML Fundamentals
-- Scikit-Learn Basics  
-- Simple Linear Regression
+- Deep Learning & Mathematical Models
+- Scikit-Learn Basics
+- Simple & Multiple Linear Regression
 - Logistic Regression
+- Naive Bayes
 - Decision Tree
-- Joblib & Pickle
 - Random Forest
 - SVM
----
+- Data Preprocessing & Feature Engineering
+- Model Evaluation & Validation
+- Hyperparameter Tuning
+- Text Processing & Pipelines
+- K-Means Clustering
+- Joblib & Pickle
