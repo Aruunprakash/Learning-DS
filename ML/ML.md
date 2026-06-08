@@ -167,6 +167,46 @@ Machine Learning enables systems to learn patterns from data and make prediction
 
 ---
 
+## 🔧 Hyperparameter Tuning
+
+### 📂 Train-Test Split
+- `train_test_split()` → separates training and testing data
+- `test_size` → controls test data proportion
+- `random_state` → ensures reproducible results
+
+---
+
+### ⚙️ SVM Tuning
+- `C` → controls misclassification penalty
+- `kernel` → defines decision boundary type
+- `gamma` → controls influence of data points
+
+---
+
+### 🔄 K-Fold Validation
+- `cross_val_score(model, X, y, cv)` → evaluates model across multiple folds
+- `cv` → number of folds
+
+---
+
+### 🔍 Grid Search
+- `GridSearchCV()` → tests all parameter combinations
+- Finds best hyperparameters automatically
+
+---
+
+### 🎲 Random Search
+- `RandomizedSearchCV()` → tests random parameter combinations
+- Faster than Grid Search on large parameter spaces
+
+---
+
+### 📈 Logistic Regression Tuning
+- `solver='lbfgs'` → optimization algorithm
+- `max_iter=1000` → maximum training iterations
+
+---
+
 # 🔍 Unsupervised Learning
 
 ## 🎯 K-Means Clustering
