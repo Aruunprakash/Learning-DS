@@ -239,6 +239,28 @@ Machine Learning enables systems to learn patterns from data and make prediction
 
 ---
 
+## ⚖️ Bias & Variance
+
+### 📉 Bias
+- Error caused by overly simple assumptions in the model
+- High Bias → Underfitting
+- Model fails to capture important patterns in data
+
+---
+
+### 📈 Variance
+- Error caused by excessive sensitivity to training data
+- High Variance → Overfitting
+- Model learns noise instead of general patterns
+
+---
+
+### 🎯 Bias-Variance Tradeoff
+- Good models balance bias and variance
+- Goal is to achieve strong performance on unseen data
+
+---
+
 # 🔍 Unsupervised Learning
 
 ## 🎯 K-Means Clustering
