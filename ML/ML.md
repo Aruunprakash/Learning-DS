@@ -113,6 +113,38 @@ Machine Learning enables systems to learn patterns from data and make prediction
 
 ---
 
+## 👥 K-Nearest Neighbors (KNN)
+
+### 📌 Introduction
+- Supervised learning algorithm for classification and regression
+- Predicts based on nearest data points
+
+---
+
+### ⚙️ Parameters
+- `n_neighbors` → number of nearest neighbors considered
+
+---
+
+### 📊 Evaluation
+
+#### `classification_report()`
+- Summarizes classification performance
+- Includes:
+  - Precision
+  - Recall
+  - F1-Score
+  - Support
+
+---
+
+### ✅ Characteristics
+- Distance-based learning
+- Simple and easy to implement
+- Sensitive to feature scaling
+
+---
+
 ## 🧪 Model Evaluation & Validation
 
 ### Train-Test Split
