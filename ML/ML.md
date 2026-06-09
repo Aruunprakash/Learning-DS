@@ -251,3 +251,39 @@ Machine Learning enables systems to learn patterns from data and make prediction
 
 ---
 
+## 📉 Principal Component Analysis (PCA)
+
+### 📌 Introduction
+- Unsupervised dimensionality reduction technique
+- Reduces the number of features while preserving important information
+- Helps simplify data and improve model performance
+
+---
+
+### 📊 Feature Scaling
+
+#### `StandardScaler()`
+- Standardizes data before applying PCA
+- Transforms features to have mean = 0 and standard deviation = 1
+---
+
+### ⚙️ Parameters
+
+#### `n_components`
+- Number of principal components to keep
+- Can be a fixed number or variance ratio
+
+---
+
+### 🎯 Methods & Attributes
+- `explained_variance_ratio_` → shows variance captured by each component
+
+---
+
+### ✅ Benefits
+- Reduces dimensionality
+- Removes redundancy between features
+- Speeds up model training
+
+---
+
