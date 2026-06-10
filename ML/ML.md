@@ -145,6 +145,53 @@ Machine Learning enables systems to learn patterns from data and make prediction
 
 ---
 
+## 🎒 Bagging (Bootstrap Aggregating)
+
+### 📌 Introduction
+- Ensemble technique that combines predictions from multiple models
+- Reduces variance and helps prevent overfitting
+
+---
+
+### 🌳 Bagged Trees
+- Multiple Decision Trees trained on different random subsets of data
+- Final prediction is based on voting (classification) or averaging (regression)
+
+---
+
+### 📊 Data Distribution
+- `df.Outcome.value_counts()` → shows count of each class
+- Useful for checking class balance before training
+
+---
+
+### 🧪 Stratified Split
+- `stratify=y` → preserves class distribution during train-test split
+- Useful for imbalanced datasets
+
+---
+
+### 🧰 Scikit-Learn
+- `from sklearn.ensemble import BaggingClassifier`
+- `BaggingClassifier()` → creates bagging model
+
+---
+
+### ⚙️ Parameters
+
+- `n_estimators=100` → number of base models/trees
+- `max_samples=0.8` → uses 80% of training samples for each model
+- `oob_score=True` → evaluates model using out-of-bag samples
+- `random_state=0` → ensures reproducible results
+
+---
+
+### 📈 Evaluation
+- `oob_score_` → out-of-bag performance score
+- Alternative to validation set for model evaluation
+
+---
+
 ## 🧪 Model Evaluation & Validation
 
 ### Train-Test Split
