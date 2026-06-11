@@ -83,12 +83,15 @@ Learning Data Science from fundamentals to advanced concepts.
 - Simple & Multiple Linear Regression
 - Logistic Regression
 - Naive Bayes
+- K-Nearest Neighbors (KNN)
 - Decision Tree
-- Random Forest
+- Random Forest & Bagging
 - SVM
 - Data Preprocessing & Feature Engineering
 - Model Evaluation & Validation
 - Hyperparameter Tuning
+- Bias-Variance Tradeoff
 - Text Processing & Pipelines
 - K-Means Clustering
+- Principal Component Analysis (PCA)
 - Joblib & Pickle
