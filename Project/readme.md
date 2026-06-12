@@ -10,3 +10,7 @@ https://github.com/Aruunprakash/Bangalore-HomePrice-Prediction.git
 ### Concepts Applied
 - Data Cleaning
 - Feature Engineering
+- Outlier Detection & Removal
+- One-Hot Encoding
+- Model Selection using Cross Validation & GridSearchCV
+- House Price Prediction
