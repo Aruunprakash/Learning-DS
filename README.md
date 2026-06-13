@@ -95,3 +95,19 @@ Learning Data Science from fundamentals to advanced concepts.
 - K-Means Clustering
 - Principal Component Analysis (PCA)
 - Joblib & Pickle
+
+## 🚀 End-to-End Projects
+
+### 🏠 Real Estate Price Prediction
+An end-to-end Machine Learning application for predicting Bangalore house prices using data preprocessing, feature engineering, model training, Flask backend development, and frontend integration.
+
+🔗 Repository: https://github.com/Aruunprakash/House-Price-Prediction.git
+
+
+## 🌐 Backend Development & APIs
+- Flask Fundamentals
+- Flask Server Development
+- REST APIs
+- CRUD Operations
+- API Testing with Postman
+- Client-Server Communication
