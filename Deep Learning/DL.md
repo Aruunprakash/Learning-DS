@@ -33,6 +33,17 @@
 
 ---
 
-### Activation Function
-- Determines whether a neuron should be activated
-- Introduces non-linearity, allowing neural networks to learn complex patterns
+### Neural Network
+- Network of interconnected neurons
+
+### Input Layer
+- Receives input data
+
+### Hidden Layer
+- Learns patterns from data
+
+### Output Layer
+- Produces predictions
+
+### Flow
+- Input → Hidden Layer(s) → Output
