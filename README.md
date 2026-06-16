@@ -111,3 +111,27 @@ An end-to-end Machine Learning application for predicting Bangalore house prices
 - CRUD Operations
 - API Testing with Postman
 - Client-Server Communication
+
+## 🧠 Deep Learning
+- Artificial Neural Networks (ANN)
+- Neurons & Neural Networks
+- Input, Hidden & Output Layers
+- Equation of a Line (`wx + b`)
+- Linear Model + Sigmoid = Neuron
+- Activation Functions
+  - Step Function
+  - Sigmoid
+  - Tanh
+  - ReLU
+  - Leaky ReLU
+  - Softmax
+- TensorFlow
+- Keras
+- Sequential Models
+- Dense Layers
+- Image Flattening (`reshape()`, `Flatten()`)
+- MNIST Digit Classification
+- Model Training (`fit()`)
+- Model Evaluation (`evaluate()`)
+- Predictions (`predict()`)
+- Confusion Matrix
