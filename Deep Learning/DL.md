@@ -47,3 +47,57 @@
 
 ### Flow
 - Input → Hidden Layer(s) → Output
+
+## 🏗️ Building an ANN with Keras
+
+### Image Flattening
+- `reshape()` → converts a 2D image into a 1D array
+- `Flatten()` layer automatically performs image flattening before training
+
+---
+
+### Sequential Model
+- `keras.Sequential()` → creates a neural network by stacking layers sequentially
+
+---
+
+### Input Layer
+- `Flatten(input_shape=(28,28))`
+- Accepts a 28×28 image and converts it into a single vector
+
+---
+
+### Hidden Layer
+- `Dense(100, activation='relu')`
+- Contains 100 neurons
+- Uses ReLU activation to learn complex patterns
+
+---
+
+### Output Layer
+- `Dense(10, activation='sigmoid')`
+- Contains 10 neurons representing digits (0–9)
+- Produces prediction probabilities
+
+---
+
+### Model Compilation
+- `optimizer='adam'` → adjusts network weights efficiently
+- `loss='sparse_categorical_crossentropy'` → loss function for multi-class classification
+- `metrics=['accuracy']` → tracks prediction accuracy
+
+---
+
+### Model Training
+- `fit(X_train, y_train, epochs=5)`
+- Trains the neural network using training data
+- `epochs` → number of times the model sees the entire dataset
+
+---
+
+### Model Evaluation
+- `evaluate(X_test, y_test)`
+- Measures model performance on unseen test data
+- Returns loss and accuracy
+
+---
