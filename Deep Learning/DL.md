@@ -1,5 +1,3 @@
-# DEEP LEARNING
-
 ## 🧠 Deep Learning
 
 ### Artificial Neural Network (ANN)
@@ -15,21 +13,8 @@
 ---
 
 ### Equation of a Line
-- Mathematical representation of a neuron before activation
+- Mathematical representation of a neuron
 - Commonly written as `y = mx + c` or `z = wx + b`
-
----
-
-### Sigmoid Function
-- Activation function that converts any value into a range between 0 and 1
-- Often used to represent probabilities
-
----
-
-### Linear Model + Sigmoid = Neuron
-- A neuron first calculates a linear equation (`wx + b`)
-- The result is passed through a sigmoid function
-- Produces a probability-like output between 0 and 1
 
 ---
 
@@ -48,56 +33,63 @@
 ### Flow
 - Input → Hidden Layer(s) → Output
 
-## 🏗️ Building an ANN with Keras
+---
 
-### Image Flattening
-- `reshape()` → converts a 2D image into a 1D array
-- `Flatten()` layer automatically performs image flattening before training
+## ⚡ Activation Functions
+
+### Why Activation Functions?
+- Introduce non-linearity into neural networks
+- Help neural networks learn complex patterns
+- Convert neuron output into a useful form
 
 ---
 
-### Sequential Model
-- `keras.Sequential()` → creates a neural network by stacking layers sequentially
+### Step Function
+- Produces either 0 or 1
+- Simple but rarely used in modern neural networks
 
 ---
 
-### Input Layer
-- `Flatten(input_shape=(28,28))`
-- Accepts a 28×28 image and converts it into a single vector
+### Sigmoid Function
+- Converts values to a range between 0 and 1
+- Often interpreted as probabilities
+- Common in binary classification output layers
 
 ---
 
-### Hidden Layer
-- `Dense(100, activation='relu')`
-- Contains 100 neurons
-- Uses ReLU activation to learn complex patterns
+### Tanh Function
+- Outputs values between -1 and 1
+- Zero-centered version of sigmoid
+- Often performs better than sigmoid
 
 ---
 
-### Output Layer
-- `Dense(10, activation='sigmoid')`
-- Contains 10 neurons representing digits (0–9)
-- Produces prediction probabilities
+### ReLU (Rectified Linear Unit)
+- Returns 0 for negative values
+- Returns input value for positive values
+- Most commonly used activation function in hidden layers
 
 ---
 
-### Model Compilation
-- `optimizer='adam'` → adjusts network weights efficiently
-- `loss='sparse_categorical_crossentropy'` → loss function for multi-class classification
-- `metrics=['accuracy']` → tracks prediction accuracy
+### Leaky ReLU
+- Similar to ReLU but allows small negative values
+- Helps reduce the "dying ReLU" problem
 
 ---
 
-### Model Training
-- `fit(X_train, y_train, epochs=5)`
-- Trains the neural network using training data
-- `epochs` → number of times the model sees the entire dataset
+### Softmax
+- Converts outputs into probability distribution
+- Sum of all outputs equals 1
+- Commonly used in multi-class classification output layers
 
 ---
 
-### Model Evaluation
-- `evaluate(X_test, y_test)`
-- Measures model performance on unseen test data
-- Returns loss and accuracy
+### Which Activation Function to Use?
 
----
+| Layer | Common Choice |
+|---------|---------------|
+| Hidden Layer | ReLU |
+| Hidden Layer (ReLU issues) | Leaky ReLU |
+| Binary Classification Output | Sigmoid |
+| Multi-Class Classification Output | Softmax |
+| Rarely Used Today | Step, Tanh |
