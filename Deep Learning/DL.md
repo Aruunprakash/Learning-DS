@@ -93,3 +93,23 @@
 | Binary Classification Output | Sigmoid |
 | Multi-Class Classification Output | Softmax |
 | Rarely Used Today | Step, Tanh |
+
+
+### Derivative
+- Measures how fast a function changes with respect to a variable
+- Indicates the slope of a curve at a specific point
+- Used to determine the direction of optimization
+
+---
+
+### Partial Derivative
+- Measures the change of a function with respect to one variable while keeping other variables constant
+- Used when a function depends on multiple variables
+
+---
+
+### Applications in Deep Learning
+- Calculates how changes in weights affect prediction error
+- Helps determine how weights should be updated
+- Fundamental to Backpropagation
+- Used by Gradient Descent to minimize loss and improve model accuracy
