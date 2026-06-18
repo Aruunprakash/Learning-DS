@@ -113,3 +113,30 @@
 - Helps determine how weights should be updated
 - Fundamental to Backpropagation
 - Used by Gradient Descent to minimize loss and improve model accuracy
+
+### Matrix
+- A collection of numbers arranged in rows and columns
+- Used to represent data and weights in neural networks
+
+---
+
+### Basic Operations
+- Addition
+- Subtraction
+- Multiplication
+- Transpose
+
+---
+
+### Applications in Deep Learning
+- Stores input data
+- Stores weights and biases
+- Used for calculations between layers
+- Makes neural network computations faster and more efficient
+
+---
+
+### Key Idea
+- Data → Matrix
+- Weights → Matrix
+- Neural Network → Matrix Operations
