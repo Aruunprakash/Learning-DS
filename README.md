@@ -78,7 +78,6 @@ Learning Data Science from fundamentals to advanced concepts.
 
 ## 🤖 Machine Learning
 - ML Fundamentals
-- Deep Learning & Mathematical Models
 - Scikit-Learn Basics
 - Simple & Multiple Linear Regression
 - Logistic Regression
