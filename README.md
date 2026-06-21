@@ -133,4 +133,4 @@ An end-to-end Machine Learning application for predicting Bangalore house prices
 - Model Training (`fit()`)
 - Model Evaluation (`evaluate()`)
 - Predictions (`predict()`)
-- Confusion Matrix 
+- Confusion Matrix
