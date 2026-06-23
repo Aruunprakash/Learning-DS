@@ -147,3 +147,114 @@
 - Image Preprocessing
 - Feature Extraction Preparation
 - Image Classification Projects
+
+---
+
+## 🌊 Wavelet Transform
+
+### Introduction
+- Feature extraction technique used in image processing
+- Highlights important patterns while reducing unnecessary details
+- Helps machine learning models focus on distinctive image features
+
+---
+
+### PyWavelets
+- `pywt`
+- Python library for wavelet transformations
+
+---
+
+### Image Preprocessing
+
+#### Grayscale Conversion
+- Convert image to grayscale before applying wavelet transform
+
+#### Normalization
+- Convert pixel values to range 0–1
+- Improves numerical stability
+
+---
+
+### Wavelet Decomposition
+
+#### `pywt.wavedec2()`
+- Performs 2D wavelet decomposition
+- Extracts low-frequency and high-frequency image information
+
+---
+
+### Wavelet Reconstruction
+
+#### `pywt.waverec2()`
+- Reconstructs image using selected wavelet coefficients
+
+---
+
+### Feature Extraction
+
+#### High Frequency Features
+- Removes low-frequency information
+- Emphasizes edges and facial details
+
+#### Wavelet Image Generation
+- Creates transformed image for feature extraction
+
+---
+
+## 🖼️ Image Resizing
+
+### `cv2.resize()`
+- Resizes images to fixed dimensions
+- Used to standardize image size
+
+### Standard Image Size
+- `32 × 32`
+- Ensures consistent input dimensions
+
+---
+
+## 🏗️ Feature Engineering
+
+### Raw Image Features
+- Extract features from original image
+
+### Wavelet Features
+- Extract features from wavelet-transformed image
+
+### Feature Combination
+- Combine raw image and wavelet features
+- Creates richer feature representation
+
+---
+
+### Image Flattening
+
+#### `reshape()`
+- Converts image matrix into a feature vector
+- Required for machine learning models
+
+---
+
+### Feature Matrix Creation
+
+#### Input Features (`X`)
+- Stores processed image features
+
+#### Labels (`y`)
+- Stores celebrity names/classes
+
+---
+
+### Dataset Preparation Pipeline
+
+- Face Detection
+- Eye Detection
+- Face Cropping
+- Wavelet Transform
+- Image Resizing
+- Feature Extraction
+- Feature Vector Creation
+- Dataset Generation
+
+---
