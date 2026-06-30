@@ -102,6 +102,11 @@ An end-to-end Machine Learning application for predicting Bangalore house prices
 
 🔗 Repository: https://github.com/Aruunprakash/House-Price-Prediction.git
 
+### 🏅 Sports Person Image Classification
+An end-to-end Computer Vision and Machine Learning application for classifying sports personalities using OpenCV, Wavelet Transform, feature engineering, Scikit-Learn, Flask backend development, and frontend integration.
+
+🔗 Repository: https://github.com/Aruunprakash/SportVision-Sports-person-image-classifier
+
 
 ## 🌐 Backend Development & APIs
 - Flask Fundamentals
