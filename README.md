@@ -118,14 +118,7 @@ An end-to-end Machine Learning application for predicting Bangalore house prices
 - Equation of a Line (`wx + b`)
 - Linear Model + Sigmoid = Neuron
 - Activation Functions
-  - Step Function
-  - Sigmoid
-  - Tanh
-  - ReLU
-  - Leaky ReLU
-  - Softmax
-- TensorFlow
-- Keras
+- TensorFlow , Keras
 - Sequential Models
 - Dense Layers
 - Image Flattening (`reshape()`, `Flatten()`)
